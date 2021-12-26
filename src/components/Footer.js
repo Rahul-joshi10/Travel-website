@@ -49,10 +49,9 @@ function Footer() {
                     </div>
                     <div class='footer-link-items'>
                         <h2>Social Media</h2>
-                        <Link to='/'>Instagram</Link>
-                        <Link to='/'>Facebook</Link>
-                        <Link to='/'>Youtube</Link>
-                        <Link to='/'>Twitter</Link>
+                        <a href='https://www.instagram.com/skandhopaneya_/' target='_blank' rel="noreferrer">Instagram</a>
+                        <a href='https://www.facebook.com/skandhopaneya/' target='_blank' rel="noreferrer">Facebook</a>
+                        <a href='https://www.facebook.com/skandhopaneya/' target='_blank' rel="noreferrer">Youtube</a>
                     </div>
                 </div>
             </div>
@@ -67,28 +66,16 @@ function Footer() {
                         Skandhopaneya © 2021
                     </small>
                     <div className="social-icons">
-                        <Link
-                            className='social-icon-link facebook'
-                            to='/'
-                            target='_blank'
-                            aria-label='Facebook'
-                        >
+                        <a href="https://www.facebook.com/skandhopaneya/" target="_blank" rel="noreferrer" className='social-icon-link facebook'>
                             <i className='fab fa-facebook-f' />
-                        </Link>
-                        <Link
-                            to='/'
-                            target="_blank"
-                            aria-label="Instagram" className="social-icon-link instagram"
-                        >
+                        </a>
+                        <a href="https://www.instagram.com/skandhopaneya_/" target="_blank" rel="noreferrer" className='social-icon-link facebook'>
                             <i className="fab fa-instagram" />
-                        </Link>
-                        <Link
-                            to='/'
-                            target="_blank"
-                            aria-label="LinkedIn" className="social-icon-link linkedin"
-                        >
-                            <i className="fab fa-linkedin" />
-                        </Link>
+                        </a>
+
+                        <a href="https://www.facebook.com/skandhopaneya/" target="_blank" rel="noreferrer" className='social-icon-link facebook'>
+                            <i className="fab fa-youtube" />
+                        </a>
                     </div>
                 </div>
             </section>
